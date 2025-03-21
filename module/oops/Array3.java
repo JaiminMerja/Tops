@@ -4,12 +4,10 @@ public class Array3
 {
     public static void main(String[] args) 
     {
-        int a[] = {1,2,3,4,5};
-        int b[] = {6,7,8,9,10};
-        
+        int a[] = {1,2,3,4};
+        int b[] = {5,6,7,8};
         int l1 = a.length;
-        int l2 = b.length;
-
+        int l2 = a.length;
         int c[] = new int[l1 + l2];
 
         for(int i=0; i<l1; i++)

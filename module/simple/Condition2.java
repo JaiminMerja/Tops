@@ -1,15 +1,22 @@
 public class Condition2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         int a=100;
-        if(a%2==0){
+        if(a%2==0)
+        {
             System.out.println("Even...");
-        } else {
+        }
+        else 
+        {
             System.out.println("Odd....");
         }
         int year=2001;
-        if(year%4==0) {
+        if(year%4==0) 
+        {
             System.out.println("Leap Year....");
-        } else {
+        } 
+        else 
+        {
             System.out.println("Not Leap Year....");
         }
     }
