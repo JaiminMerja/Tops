@@ -13,8 +13,9 @@ public class Array7
             a[right] = temp;
             left ++;
             right --;
-        }        
-        for(int b : a)
+        }
+        System.out.println("Reverese Array");
+        for(int b:a)
         {
             System.out.print(b+" ");
         }

@@ -5,24 +5,24 @@ public class ArmstrongNo
 {
     public static void main(String[] args) 
     {
-        Scanner s = new Scanner(System.in);
-        System.out.println("Enter a number:");
-        int n = s.nextInt();
-        int copy=n, sum=0;
-        while(n>0)
-        {
-            int t = n % 10;
-            sum = sum + (t*t*t);
-            n = n/10;
-        }
-        if(sum == copy)
-        {
-            System.out.println("Number is Armstrong:"+sum);
-        }
-        else
-        {
-            System.out.println("Number is not Armstrong:"+sum);
-        }
+      Scanner s = new Scanner(System.in);
+      System.out.println("Enter a number:");
+      int a = s.nextInt();
+      int copy=a, sum=0;
+      while(a>0)
+      {
+          int t = a % 10;
+          sum = sum + (t*t*t);
+          a = a/10;
+      }
+      if (copy == sum)
+      {
+          System.out.println("Armstrong");
+      }
+      else
+      {
+          System.out.println("Not a Armstrong");
+      }
     }
 }
 
