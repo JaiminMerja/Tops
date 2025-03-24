@@ -1,7 +1,9 @@
+package module.collection;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class DataDemo 
+public class DateDemo 
 {
     public static void main(String[] args) 
     {

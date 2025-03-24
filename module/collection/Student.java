@@ -1,3 +1,5 @@
+package module.collection;
+
 public class Student 
 {
     private int id;

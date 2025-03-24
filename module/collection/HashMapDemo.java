@@ -2,6 +2,7 @@ package module.collection;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Set;
 
 public class HashMapDemo 
@@ -21,14 +22,14 @@ public class HashMapDemo
         Iterator i = s.iterator();
         while(i.hasNext())
         {
-            // Map.Entry me = (Map.Entry)i.next();
-            // System.out.println("Key:"+me.getKey());
-            // System.out.println("Value:"+me.getValue());
-            // System.out.println();
+            Map.Entry me = (Map.Entry)i.next();
+            System.out.println("Key:"+me.getKey());
+            System.out.println("Value:"+me.getValue());
+            System.out.println();
 
-            String[] s1 = i.next().toString().split("=");
-            System.out.println("Key:"+s1[0]);
-            System.out.println("Value:"+s1[1]);
+            // String[] s1 = i.next().toString().split("=");
+            // System.out.println("Key:"+s1[0]);
+            // System.out.println("Value:"+s1[1]);
         }
     }
 }
