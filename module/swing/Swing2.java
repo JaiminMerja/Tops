@@ -14,7 +14,7 @@ class Second
     ButtonGroup bg;
     public Second()
     {
-        frame = new JFrame("First Demo");
+        frame = new JFrame("Second Demo");
         frame.setLayout(new FlowLayout());
         frame.setSize(500, 500);
         frame.setVisible(true);

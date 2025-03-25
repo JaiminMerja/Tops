@@ -15,7 +15,7 @@ class Third
     JScrollPane pane;
     public Third()
     {
-        frame = new JFrame("First Demo");
+        frame = new JFrame("Third Demo");
         frame.setLayout(new FlowLayout());
         frame.setSize(500, 500);
         frame.setVisible(true);

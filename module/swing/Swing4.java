@@ -10,7 +10,7 @@ class Fourth
     JScrollBar h,v;
     public Fourth()
     {
-        frame = new JFrame("First Demo");
+        frame = new JFrame("Fourth Demo");
         frame.setLayout(new FlowLayout());
         frame.setSize(500, 500);
         frame.setVisible(true);
