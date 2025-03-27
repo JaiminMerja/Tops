@@ -25,6 +25,7 @@ class Eighth
         b3.setBounds(100, 130, 75, 25);
         b4=new JButton("Display");
         b4.setBounds(180, 130, 75, 25);
+        
         frame.add(b1);
         frame.add(b2);
         frame.add(b3);

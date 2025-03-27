@@ -27,13 +27,13 @@ class Second
         r1 = new JRadioButton("Male");
         r2 = new JRadioButton("Female");
         bg = new ButtonGroup();
+
         bg.add(r1);
         bg.add(r2);
 
         frame.add(c1);
         frame.add(c2);
         frame.add(c3);
-
         frame.add(r1);
         frame.add(r2);
     }

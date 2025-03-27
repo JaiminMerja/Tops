@@ -31,6 +31,7 @@ class Seventh
         p1=new JPasswordField(15);
         b1=new JButton("Login");
         b2=new JButton("Cancle");
+        
         frame.add(l1);
         frame.add(l2);
         frame.add(t1);

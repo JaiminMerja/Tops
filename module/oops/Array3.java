@@ -7,8 +7,8 @@ public class Array3
         int a[] = {1,2,3,4};
         int b[] = {5,6,7,8};
         int l1 = a.length;
-        int l2 = a.length;
-        int c[] = new int[l1 + l2];
+        int l2 = b.length;
+        int c[] = new int[l1+l2];
 
         for(int i=0; i<l1; i++)
         {
@@ -16,7 +16,7 @@ public class Array3
         }
         for(int i=0; i<l2; i++)
         {
-            c[i+l2] = b[i];
+            c[i+l1] = b[i];
         }
         System.out.println("Merge Array");
         for(int d : c)

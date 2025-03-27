@@ -26,6 +26,7 @@ class First
         t1 = new JTextField(15);
         p1 = new JPasswordField(15);
         b1 = new JButton("Display");
+        
         frame.add(l1);
         frame.add(t1);
         frame.add(p1);

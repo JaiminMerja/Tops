@@ -5,14 +5,14 @@ package module.oops;
 //     {
 //         int a[] = {21,124,123,13454,11,2323145};
 //         int min = a[0];
-//         for(int i=0; i<a.length; i++)
+//         for(int i=1; i<a.length; i++)
 //         {
 //             while(a[i] < min)
 //             {
-//                 min = a[i];
+//                 a[i] = min;
 //             }
 //         }
-//         System.out.println("Minmum value:"+min);
+//         System.out.println("Minimum value:"+min);
 //     }
 // }
 
@@ -37,6 +37,6 @@ public class Array5
                 second = a[i];
             }
         }
-        System.out.println("Second Smallest number:"+second);
+        System.out.println("Second min:"+second);
     }    
 }

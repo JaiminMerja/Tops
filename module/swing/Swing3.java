@@ -20,10 +20,12 @@ class Third
         frame.setSize(500, 500);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
         cb = new JComboBox(city);
         list = new JList(city);
         list.setVisibleRowCount(4);
         pane = new JScrollPane(list);
+        
         frame.add(cb);
         frame.add(pane);
     }

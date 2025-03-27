@@ -11,6 +11,7 @@ public class Array9
             {
                 if(a[i] == a[j])
                 {
+                    System.out.println("Duplicates are");
                     System.out.println(a[i]+" ");
                 }
             }
